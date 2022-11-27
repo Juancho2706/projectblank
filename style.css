@@ -7,11 +7,49 @@ body{
 .header,
 .footer{
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
+}
+.Arriba,
+.Abajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60px;
+}
+.Arriba div a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.Arriba p{
+    font-size: 24px;
+}
+.Abajo div{
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+    padding-inline: 140px;
+}
+.Abajo{
+    flex-wrap: wrap;
+}
+.Abajo div button{
+    align-self: flex-start;
+    border-color:#1f2937;
+}
+.Abajo div h1{
+    font-size: 56px;
+    min-width: 475px;
+}
+.Abajo img{
+    height: auto;
+    max-width: 1000px;
+    min-width:auto;
 }
 
 .header{
     display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
 }
 .headinfo{
     text-align: center;
@@ -44,6 +82,7 @@ body{
     background-color: #e5e7eb;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .quote p{
