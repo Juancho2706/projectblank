@@ -13,11 +13,32 @@ body{
 .header{
     display: flex;
 }
-
+.headinfo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+}
 .randomimg{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.cards img{
+    height: auto;
+    max-width: 200px;
+    align-self: center;
+}
+.cards p{
+    max-width: 350px;
+    text-align: center;
+}
 .quote{
     display: flex;
     background-color: #e5e7eb;
