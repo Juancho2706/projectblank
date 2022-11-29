@@ -54,11 +54,33 @@
                 </div>
                 <button class="acbutton">Sign up</button>
             </div>
-            
-        
     </div>
     <div class="footer">
         <p>Copyright ® The Odin Project 2022</p>
     </div>
+    <script>
+        // Your JavaScript goes here!
+        let max = 57;
+        let min = 20;
+        let palabra = 'yOlO';
+        function add7(num){
+            return console.log(num += 7);
+        }
+        add7(max);
+        function multiply(numero1, numero2){
+            return console.log(numero1 * numero2);
+        }
+        multiply(max, min);
+        function capitalize(aword){
+            let str = aword.slice(1).toLowerCase();
+            let str2 = aword.charAt(0).toUpperCase();
+            return console.log(str2+str);
+        }
+        capitalize(palabra);
+        function lastLetter(bword){
+            return console.log(bword.slice(-1));
+        }
+        lastLetter(palabra);
+      </script>
 </body>
 </html>
